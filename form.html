@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+    <div class="head">
+        <div class="head-content">
+           <h2>Add New Project</h2>
+            <form>
+
+                <div class="form">
+                    <label class="lb1" for="projectName">Project name</label>
+                    <input type="text" id="projectName" placeholder="Enter Project Name">
+                </div>
+
+                <div class="form">
+                    <label for="projectDescription">Project Description</label>
+                    <textarea id="projectDescription" rows="3" placeholder="Enter Project Description"></textarea>
+                </div>
+
+                <div class="form">
+                    <label for="projectStatus">Project Status</label>
+                    <select id="projectStatus">
+                        <option value="Select">Select</option>
+                        <option value="Live">Live</option>
+                        <option value="Hold">Hold</option>
+                    </select>
+                </div>
+
+                <div class="form">
+                    <label for="clientCompany">ClientCompany</label>
+                    <select id="clientCompany">
+                        <option value="Select">Select</option>
+                        <option value="Infosys">Infosys</option>
+                        <option value="Tata">Tata</option>
+                        <option value="Reliance">Reliance</option>
+                    </select>
+                </div>
++
+                <div class="form">
+                    <label for="projectLeader">Project Leader</label>
+                    <input type="text" id="projectLeader" placeholder="Enter project Leader">
+                </div>
+
+                <div class="btn">
+                    <a href="#"><button class="submit" >Submit</button></a>
+                    <a href="#"><button class="cancel" >Cancel</button></a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

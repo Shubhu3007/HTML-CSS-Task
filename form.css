@@ -1,0 +1,94 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.head{
+    position: relative;
+    display: flex;
+    background-color: white;
+    width: 100rem;
+    height: 45rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+h2 {
+    color: white;
+    background-color: darkcyan;
+    padding: 5px;
+    padding-left: 80px;
+    border-radius: 10px;
+    justify-content: last baseline;
+}
+
+.head-content {
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+    border-style:double;
+    width: 350px;
+    height: 500px;
+}
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.lb1{
+    padding-top:15px;
+}
+.form {
+    padding-top: 5px;
+    margin-bottom: 15px;
+    justify-items: baseline;
+}
+.form label {
+    display:flex;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form input{
+    width: 22rem;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+} 
+.form textarea{
+    width: 22rem;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+} 
+.form select {
+    width: 22rem;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+form {
+    text-align: right;
+}
+form button {
+    padding: 8px 12px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.submit {
+    background-color:olivedrab;
+    color: white;
+}
+.cancel {
+    background-color: red;
+    color: white;
+}
